@@ -14,13 +14,13 @@ namespace SamuraiMod.Survivors.Samurai
     public class SamuraiSurvivor : SurvivorBase<SamuraiSurvivor>
     {
         //used to load the assetbundle for this character. must be unique
-        public override string assetBundleName => "myassetbundle"; //if you do not change this, you are giving permission to deprecate the mod
+        public override string assetBundleName => "HenryBundle";
 
         //the name of the prefab we will create. conventionally ending in "Body". must be unique
-        public override string bodyName => "SamuraiBody"; //if you do not change this, you get the point by now
+        public override string bodyName => "SamuraiBody";
 
         //name of the ai master for vengeance and goobo. must be unique
-        public override string masterName => "SamuraiMonsterMaster"; //if you do not
+        public override string masterName => "SamuraiMonsterMaster";
 
         //the names of the prefabs you set up in unity that we will use to build your character
         public override string modelPrefabName => "mdlSamurai";
