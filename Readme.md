@@ -1,2 +1,2 @@
-# Samurai Tutorial
-Head to the [Wiki](https://github.com/ArcPh1r3/SamuraiTutorial/wiki) tab to get started.
+# Samurai
+Work in progress mod intending to add a Samurai character to Risk of Rain 2.
