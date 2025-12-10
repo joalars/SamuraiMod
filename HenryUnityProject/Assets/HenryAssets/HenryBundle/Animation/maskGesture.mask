@@ -101,11 +101,11 @@ AvatarMask:
     m_Weight: 0
   - m_Path: Armature/ROOT/KneeIK.r
     m_Weight: 0
-  - m_Path: meshHenry
+  - m_Path: meshSamurai
     m_Weight: 0
-  - m_Path: meshHenry.001
+  - m_Path: meshSamurai.001
     m_Weight: 0
-  - m_Path: MeshHenryGun
+  - m_Path: MeshSamuraiGun
     m_Weight: 0
-  - m_Path: meshHenrySword
+  - m_Path: meshSamuraiSword
     m_Weight: 0

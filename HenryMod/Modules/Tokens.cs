@@ -1,4 +1,4 @@
-﻿namespace HenryMod.Modules
+﻿namespace SamuraiMod.Modules
 {
     internal static class Tokens
     {

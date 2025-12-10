@@ -1,8 +1,8 @@
-﻿using HenryMod.Modules.BaseStates;
+﻿using SamuraiMod.Modules.BaseStates;
 using RoR2;
 using UnityEngine;
 
-namespace HenryMod.Survivors.Henry.SkillStates
+namespace SamuraiMod.Survivors.Samurai.SkillStates
 {
     public class SlashCombo : BaseMeleeAttack
     {
@@ -11,7 +11,7 @@ namespace HenryMod.Survivors.Henry.SkillStates
             hitboxGroupName = "SwordGroup";
 
             damageType = DamageTypeCombo.GenericPrimary;
-            damageCoefficient = HenryStaticValues.swordDamageCoefficient;
+            damageCoefficient = SamuraiStaticValues.swordDamageCoefficient;
             procCoefficient = 1f;
             pushForce = 300f;
             bonusForce = Vector3.zero;
@@ -29,14 +29,14 @@ namespace HenryMod.Survivors.Henry.SkillStates
             attackRecoil = 0.5f;
             hitHopVelocity = 4f;
 
-            swingSoundString = "HenrySwordSwing";
+            swingSoundString = "SamuraiSwordSwing";
             hitSoundString = "";
             muzzleString = swingIndex % 2 == 0 ? "SwingLeft" : "SwingRight";
             playbackRateParam = "Slash.playbackRate";
-            swingEffectPrefab = HenryAssets.swordSwingEffect;
-            hitEffectPrefab = HenryAssets.swordHitImpactEffect;
+            swingEffectPrefab = SamuraiAssets.swordSwingEffect;
+            hitEffectPrefab = SamuraiAssets.swordHitImpactEffect;
 
-            impactSound = HenryAssets.swordHitSoundEvent.index;
+            impactSound = SamuraiAssets.swordHitSoundEvent.index;
 
             base.OnEnter();
         }

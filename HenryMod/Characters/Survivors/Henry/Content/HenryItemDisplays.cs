@@ -1,5 +1,5 @@
-﻿using HenryMod.Modules;
-using HenryMod.Modules.Characters;
+﻿using SamuraiMod.Modules;
+using SamuraiMod.Modules.Characters;
 using RoR2;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +11,9 @@ using UnityEngine;
                     {localScale})
 */
 
-namespace HenryMod.Survivors.Henry
+namespace SamuraiMod.Survivors.Samurai
 {
-    public class HenryItemDisplays : ItemDisplaysBase
+    public class SamuraiItemDisplays : ItemDisplaysBase
     {
         protected override void SetItemDisplayRules(List<ItemDisplayRuleSet.KeyAssetRuleGroup> itemDisplayRules)
         {

@@ -2,11 +2,11 @@
 using BepInEx.Configuration;
 using UnityEngine;
 
-namespace HenryMod.Modules
+namespace SamuraiMod.Modules
 {
     public static class Config
     {
-        public static ConfigFile MyConfig = HenryPlugin.instance.Config;
+        public static ConfigFile MyConfig = SamuraiPlugin.instance.Config;
 
         /// <summary>
         /// automatically makes config entries for disabling survivors

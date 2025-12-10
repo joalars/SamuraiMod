@@ -1,10 +1,10 @@
-﻿using HenryMod.Survivors.Henry.Achievements;
+﻿using SamuraiMod.Survivors.Samurai.Achievements;
 using RoR2;
 using UnityEngine;
 
-namespace HenryMod.Survivors.Henry
+namespace SamuraiMod.Survivors.Samurai
 {
-    public static class HenryUnlockables
+    public static class SamuraiUnlockables
     {
         public static UnlockableDef characterUnlockableDef = null;
         public static UnlockableDef masterySkinUnlockableDef = null;
@@ -12,9 +12,9 @@ namespace HenryMod.Survivors.Henry
         public static void Init()
         {
             masterySkinUnlockableDef = Modules.Content.CreateAndAddUnlockbleDef(
-                HenryMasteryAchievement.unlockableIdentifier,
-                Modules.Tokens.GetAchievementNameToken(HenryMasteryAchievement.identifier),
-                HenrySurvivor.instance.assetBundle.LoadAsset<Sprite>("texMasteryAchievement"));
+                SamuraiMasteryAchievement.unlockableIdentifier,
+                Modules.Tokens.GetAchievementNameToken(SamuraiMasteryAchievement.identifier),
+                SamuraiSurvivor.instance.assetBundle.LoadAsset<Sprite>("texMasteryAchievement"));
         }
     }
 }
